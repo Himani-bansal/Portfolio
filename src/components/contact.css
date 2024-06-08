@@ -1,119 +1,54 @@
-/*import css reset*/
-@import url("https://meyerweb.com/eric/tools/css/reset/reset.css");
+.contact-form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
 
-/*notatie reset*/
-html {
-    box-sizing: border-box;
 }
 
-*,
-*:before,
-*:after {
-    box-sizing: inherit;
+.contact-form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
 }
 
-/*returning values*/
-/*value for screen reader*/
-.sr-only {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    padding: 0;
-    margin: -1px;
-    overflow: hidden;
-    clip: rect(0, 0, 0, 0);
-    border: 0;
+.form-group {
+    margin-bottom: 15px;
 }
 
-/*login container */
-.login__container {
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input,
+.form-group textarea {
     width: 100%;
-    height: 100vh;
-    background: linear-gradient(180deg, rgba(3, 8, 38, 0.8) 80%, rgba(9, 23, 113, 0.9) 100%), url("https://images.unsplash.com/photo-1622082748547-22015aa77451?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background: #333;
+    color: #ccc;
 }
 
-/*login form */
-.login__form {
-    width: 600px;
-    height: 250px;
+.form-group textarea {
+    height: 100px;
+    resize: vertical;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
     color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: rgba(70, 50, 80, 0.4);
-    border-radius: 0 25px;
-    letter-spacing: 2px;
-}
-
-/*login title, also sr only */
-.login__title {
-    font-size: 1.8em;
-    letter-spacing: 2px;
-}
-
-/*input & password label*/
-.login__input-label,
-.login__password-label {
-    /*padding: 0.4em;*/
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 1em;
-    width: 250px;
-    line-height: 1.6em;
-    color: white;
-    font-size: 1em;
-    letter-spacing: 2px;
-}
-
-/*text & password input field*/
-input[type=text],
-input[type=password] {
-    background: transparent;
     border: none;
-    border-bottom: 1px solid white;
-    color: white;
-    line-height: 1.6em;
-    text-align: right;
-    font-size: 1em;
-    letter-spacing: 2px;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
 }
 
-/*login button*/
-.login__login-btn {
-    padding: 0.4em;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1em;
-    width: 100px;
-    color: white;
-    background: #1b998b;
-    border: none;
-    font-size: 1em;
-    letter-spacing: 2px;
-    width: 250px;
-    line-height: 1.6em;
-}
-
-/*login button change on hover*/
-.login__login-btn:hover {
-    background: #22bfac;
-}
-
-/*text & password input field change on hover: DONT USE, muisloze mensen kunnen moeilijk de website raadplegen*/
-input[type=text]:focus,
-input[type=password]:focus {
-    outline: 0;
-    /* outline-bottom: 1px solid rgb(34, 191, 172);*/
-    border-bottom: 1px solid #22bfac;
-    border-right: 1px solid #22bfac;
+button:hover {
+    background-color: #0056b3;
 }

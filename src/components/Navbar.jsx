@@ -1,7 +1,7 @@
 import React from 'react'
 
 export const Navbar = () => {
-    return <nav className="navbar bg_union z_index navbar-dark .bg_union navbar-expand-lg py-lg-2">
+    return <nav className="navbar z_index navbar-dark .bg_union navbar-expand-lg py-lg-2">
         <div className=" container-xl">
             <a className="text-decoration-none text-white w_15_lg" href="#">himanibansal137@gmail.com</a>
             <button className="navbar-toggler p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
@@ -14,18 +14,20 @@ export const Navbar = () => {
                 <div className="offcanvas-body">
                     <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li className="nav-item position-relative hover_nav mx-0 mx-lg-3 mx-xl-4">
-                            <a className="nav-link active ff_roboto f_18 text-nowrap" aria-current="page" href="#">About
+                            <a className="nav-link active p-3 ff_roboto fs-5 text-nowrap" aria-current="page" href="#about">About
                                 me</a>
                         </li>
-                        <li className="nav-item position-relative hover_nav">
-                            <a className="nav-link active ff_roboto f_18 " href="#">Skills</a>
+                        <li className="nav-item position-relative hover_nav mx-0 mx-lg-2 mx-xl-3">
+                            <a className="nav-link active p-3 ff_roboto fs-5 " href="#skills">Skills</a>
                         </li>
-                        <li className="nav-item position-relative hover_nav mx-0 mx-lg-3 mx-xl-4">
-                            <a className="nav-link active ff_roboto f_18" href="#">Work</a>
+                        <li className="nav-item position-relative hover_nav mx-0 mx-lg-2 mx-xl-3">
+                            <a className="nav-link active p-3 ff_roboto fs-5" href="#education">Education</a>
                         </li>
-                        <li className="nav-item ">
-                            <button className="nav-link active ff_roboto f_18 ms-0 ms-md-3 ms-lg-4 bg_union sin_in_btn px-4 text-nowrap">
-                                Contact</button>
+                        <li className="nav-item position-relative hover_nav mx-0 mx-lg-2 mx-xl-3">
+                            <a className="nav-link active p-3 ff_roboto fs-5" href="#projects">Projects</a>
+                        </li>
+                        <li className="nav-item position-relative hover_nav mx-0 mx-lg-2 mx-xl-3">
+                            <a className="nav-link active p-3 ff_roboto fs-5" href="#contact">Contact Me</a>
                         </li>
                     </ul>
                 </div>
