@@ -10,15 +10,9 @@ import news2 from "../project pics/newsapp/news2.png";
 
 import text1 from "../project pics/text-converter/text1.png";
 import text2 from "../project pics/text-converter/text2.png";
-import travels1 from "../project pics/travels/travels1.png";
-import travels2 from "../project pics/travels/travels2.png";
 import Netflix1 from "../assets/netflix1.png";
 import Netflix2 from "../assets/netflix2.png";
 import Netflix3 from "../assets/netflix3.png";
-import webclick1 from "../assets/webclick1.png";
-import webclick2 from "../assets/webclick2.png";
-import web3 from "../assets/web3.png";
-import web4 from "../assets/web4.png";
 import notes1 from "../project pics/notesapp/notes1.png";
 import notes2 from "../project pics/notesapp/notes2.png";
 import pg1 from "../project pics/pg-seekers/1.jpeg";
@@ -49,8 +43,8 @@ const projects = {
       title: 'CryptoCurrency',
       description: "A cryptocurrency tracking application utilizing Chakra UI for sleek and responsive design, fetching real-time data through API calls.",
       technology: "React.js , Chakra-UI , API calls",
-      url1:"https://symphonious-tartufo-66271f.netlify.app/",
-      url2:"https://github.com/Himani-bansal/coins",
+      url1: "https://symphonious-tartufo-66271f.netlify.app/",
+      url2: "https://github.com/Himani-bansal/coins",
       images: [
         coin1,
         coin2
@@ -60,8 +54,8 @@ const projects = {
       title: 'Ftatft-News',
       description: "A news application built with React, fetching and displaying real-time news updates through API calls.",
       technology: "React.js, API calls, Bootstrap",
-      url1:"https://github.com/Himani-bansal/Newsapp",
-      url2:"https://github.com/Himani-bansal/Newsapp",
+      url1: "https://github.com/Himani-bansal/Newsapp",
+      url2: "https://github.com/Himani-bansal/Newsapp",
 
       images: [
         news1,
@@ -73,8 +67,8 @@ const projects = {
       title: 'Text-Converter',
       description: "A text converter application with light and dark modes, allowing users to easily switch text between lowercase and uppercase.",
       technology: "React.js, Bootstrap",
-      url1:"https://himani-bansal.github.io/textformatter/",
-      url1:"https://github.com/Himani-bansal/textformatter",
+      url1: "https://himani-bansal.github.io/textformatter/",
+      url2: "https://github.com/Himani-bansal/textformatter",
       images: [
         text1,
         text2
@@ -88,8 +82,8 @@ const projects = {
       title: 'Notes Taking App',
       description: "A full-stack note-taking app with user login and comprehensive CRUD operations for managing notes efficiently.",
       technology: "Mongo DB, Express.js , React.js, Node.js,Bootstrap",
-      url1:"https://github.com/Himani-bansal/notestakingapp",
-      url2:"https://github.com/Himani-bansal/notestakingapp",
+      url1: "https://github.com/Himani-bansal/notestakingapp",
+      url2: "https://github.com/Himani-bansal/notestakingapp",
       images: [
         notes1,
         notes2
@@ -99,8 +93,8 @@ const projects = {
       title: 'PG Seekers',
       description: 'A MERN stack PG listing website where users can find and add PG accommodations tailored to their needs.',
       technology: "Mongo DB, Express.js , React.js, Node.js,Bootstrap",
-      url1:"https://lnkd.in/dvc6PqVr",
-      url2:"https://github.com/Himani-bansal/PGseekers",
+      url1: "https://lnkd.in/dvc6PqVr",
+      url2: "https://github.com/Himani-bansal/PGseekers",
 
       images: [
         pg1,
@@ -122,7 +116,7 @@ const ProjectCarousel = ({ projects = [] }) => (
               <Card.Text className="fw-lighter f_22">{project.description}</Card.Text>
               <Card.Text className="fw-lighter f_22"><span className='fw_bold f-color-purple'>Built with: </span>{project.technology}</Card.Text>
               <Link to={project.url1} className="nav-link ff_roboto f_22 fw-bold  ms-0  py-2 "> View The Site &gt;&gt;</Link>
-              <a href={project.url2} className="nav-link ff_roboto f_22  fw-bold f-color-purple ms-0 py-2">View The Code &gt;&gt;</a>
+              <Link to={project.url2} className="nav-link ff_roboto f_22  fw-bold f-color-purple ms-0 py-2">View The Code &gt;&gt;</Link>
             </Card.Body>
           </div>
           <div data-aos="fade-left" className="col-lg-4  d-flex justify-content-center align-items-center img_box  py-3 my-3 mx-auto ms-lg-3">
@@ -130,7 +124,7 @@ const ProjectCarousel = ({ projects = [] }) => (
               <Carousel interval={1000} controls={false}>
                 {project.images.map((image, imgIndex) => (
                   <Carousel.Item key={imgIndex}>
-                    <Card.Img variant="top" className="p-0 m-0 rounded-4 card_img col-lg-11 " src={image} />
+                    <Card.Img variant="top" className="p-0 m-0 rounded-4 card_img col-lg-11 " src={image} alt="project_image" />
                   </Carousel.Item>
                 ))}
               </Carousel>
@@ -164,7 +158,7 @@ const Projects = () => {
              ${activeTab === tab ? 'active-tab' : ''}`}
             onClick={(event) => handleTabClick(tab, event)}
           >
-            <a className="tab_link" href="#">
+            <a className="tab_link" href="/">
               {tab === 'frontend' ? 'frontend' : 'fullstack'}
             </a>
           </li>

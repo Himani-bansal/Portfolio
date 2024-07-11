@@ -3,7 +3,7 @@ import React from 'react'
 export const Navbar = () => {
     return <nav className="navbar z_index navbar-dark .bg_union navbar-expand-lg py-lg-2">
         <div className=" container-xl">
-            <a className="text-decoration-none text-white w_15_lg" href="#">himanibansal137@gmail.com</a>
+            <a className="text-decoration-none text-white w_15_lg" href="/">himanibansal137@gmail.com</a>
             <button className="navbar-toggler p-0" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon" />
             </button>

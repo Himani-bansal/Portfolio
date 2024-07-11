@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Hero_section from '../components/Hero_section'
+import Herosection from '../components/Hero_section'
 import { About } from '../components/About'
 import Skills from '../components/Skills'
 import Projects from '../components/Projects'
@@ -11,7 +11,7 @@ import Education from './Education.jsx'
 
 const Home = () => {
     return <>
-        <Hero_section />
+        <Herosection />
         <About />
         <Skills />
         <Education />

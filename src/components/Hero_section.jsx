@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import useAOS from './useAOS';
 import 'aos/dist/aos.css';
 import hero_pic from "../assets/image-me.png";
@@ -22,7 +21,7 @@ const Hero_section = () => {
                         <button data-aos="zoom-in" className="btn download_btn  mt-3 resume_btn col-lg-5" id="downloadBtn"><DownloadButton/></button>
                     </div>
                     <div data-aos="zoom-in" className="col-10 col-md-6  mt-5 mt-md-0 text-center">
-                        <img className="hero_img rounded-circle" src={hero_pic} alt="Hero Image" />
+                        <img className="hero_img rounded-circle" src={hero_pic} alt="hero"/>
                     </div>
                 </div>
             </div>
