@@ -30,28 +30,28 @@ const Skills = () => {
         </div>
         <div className="px-4 col-lg-9 d-flex flex-wrap  justify-content-center align-items-center" data-aos="fade-up" >
             <div data-aos="zoom-in-up" className='skills_box  p-3 '>
-                <img className=" skills_img m-lg-5 mb-md-2 mb-lg-4 scale-element transform-element " src={html} />
+                <img className=" skills_img m-lg-5 mb-md-2 mb-lg-4 scale-element transform-element " src={html} alt="image" />
                 <h6 className="f-color-white text-center "> HTML5</h6>
             </div>
-            <div data-aos="zoom-in-up" className='skills_box scale-element transform-element p-3'><img className="scale-element transform-element skills_img m-lg-5 mb-lg-4 " src={css} />
+            <div data-aos="zoom-in-up" className='skills_box scale-element transform-element p-3'><img className="scale-element transform-element skills_img m-lg-5 mb-lg-4 " src={css} alt="image" />
                 <h6 className="f-color-white text-center"> CSS3</h6>
             </div>
             <div data-aos="zoom-in-up" className='skills_box scale-element transform-element p-3'> <img className="skills_img scale-element transform-element m-lg-5 mb-lg-4 " src={js} />
                 <h6 className="f-color-white text-center"> Javascript</h6>
             </div>
-            <div data-aos="zoom-in-up" className='skills_box scale-element transform-element p-3'> <img className="skills_img scale-element transform-element m-lg-5 mb-lg-4 " src={bootstrap} />
+            <div data-aos="zoom-in-up" className='skills_box scale-element transform-element p-3'> <img className="skills_img scale-element transform-element m-lg-5 mb-lg-4 " src={bootstrap} alt="image" />
                 <h6 className="f-color-white text-center"> Bootstrap</h6>
             </div>
-            <div data-aos="zoom-in-up" className='skills_box scale-element transform-element p-3'> <img className="skills_img scale-element transform-element m-lg-5 mb-lg-4 " src={react} />
+            <div data-aos="zoom-in-up" className='skills_box scale-element transform-element p-3'> <img className="skills_img scale-element transform-element m-lg-5 mb-lg-4 " src={react} alt="image" />
                 <h6 className="f-color-white text-center"> React</h6>
             </div>
-            <div data-aos="zoom-in-up" className='skills_box scale-element transform-element p-3'> <img className="skills_img scale-element transform-element m-lg-5 mb-lg-4 " src={nodejs} />
+            <div data-aos="zoom-in-up" className='skills_box scale-element transform-element p-3'> <img className="skills_img scale-element transform-element m-lg-5 mb-lg-4 " src={nodejs} alt="image" />
                 <h6 className="f-color-white text-center"> Nodejs</h6>
             </div>
-            <div data-aos="zoom-in-up" className='skills_box scale-element transform-element p-3'> <img className="skills_img scale-element transform-element m-lg-5 mb-lg-4 " src={c} />
+            <div data-aos="zoom-in-up" className='skills_box scale-element transform-element p-3'> <img className="skills_img scale-element transform-element m-lg-5 mb-lg-4 " src={c} alt="image" />
                 <h6 className="f-color-white text-center"> C++</h6>
             </div>
-            <div data-aos="zoom-in-up" className='skills_box scale-element transform-element p-3'> <img className="skills_img scale-element transform-element m-lg-5 mb-lg-4 " src={github} />
+            <div data-aos="zoom-in-up" className='skills_box scale-element transform-element p-3'> <img className="skills_img scale-element transform-element m-lg-5 mb-lg-4 " src={github} alt="image" />
                 <h6 className="f-color-white text-center"> Github</h6>
             </div>
         </div>
