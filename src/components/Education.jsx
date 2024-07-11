@@ -30,11 +30,11 @@ const Education = () => {
 
                         <div className="col-lg-3 card_ed card2 rounded-4 education_card p-2 ">
                             <div class="card-body">
-                                <h5 class="card-title text-white fs-4">MCA</h5>
-                                <p class="card-subtitle mb-2 text-white">(Masters of Computer Application)</p>
-                                <h6 class="card-subtitle mb-2 text-white">Maharishi Markandeshwar (Deemed to be University),
-                                    Mullana, Ambala </h6>
-                                <p class="text-white">Aug 2023 - Present</p>
+                                <h5 class="card-title text-white fs-4">BCA</h5>
+                                <p class="card-subtitle mb-2 text-white">(Bachelors of Computer Application)</p>
+                                <h6 class="card-subtitle mb-2 text-white">Guru Jambeshwar University of science and technology,
+                                    Hisar, Haryana </h6>
+                                <p class="text-white"> 2020 - 2023</p>
                             </div>
                         </div>
                         <div className='empty'></div>
@@ -48,11 +48,11 @@ const Education = () => {
                         <div className='empty'></div>
                         <div className="col-lg-3 card_ed card1  rounded-4  p-2 education_card">
                             <div class="card-body">
-                                <h5 class="card-title text-white fs-4">MCA</h5>
-                                <p class="card-subtitle mb-2 text-white">(Masters of Computer Application)</p>
-                                <h6 class="card-subtitle mb-2 text-white">Maharishi Markandeshwar (Deemed to be University),
-                                    Mullana, Ambala </h6>
-                                <p class="text-white">Aug 2023 - Present</p>
+                                <h5 class="card-title text-white fs-4">12th</h5>
+                                <p class="card-subtitle mb-2 text-white">(Non-medical)</p>
+                                <h6 class="card-subtitle mb-2 text-white">Adarsh Sr. Sec. School,
+                                    Tosham,Bhiwani,Haryana </h6>
+                                <p class="text-white">2020</p>
                             </div>
                         </div>
                     </div>
@@ -64,11 +64,10 @@ const Education = () => {
 
                         <div className="col-lg-3 card_ed card2 rounded-4 education_card p-2 ">
                             <div class="card-body">
-                                <h5 class="card-title text-white fs-4">MCA</h5>
-                                <p class="card-subtitle mb-2 text-white">(Masters of Computer Application)</p>
-                                <h6 class="card-subtitle mb-2 text-white">Maharishi Markandeshwar (Deemed to be University),
-                                    Mullana, Ambala </h6>
-                                <p class="text-white">Aug 2023 - Present</p>
+                                <h5 class="card-title text-white fs-4">10th</h5>
+                                <h6 class="card-subtitle mb-2 text-white">Adarsh Sr. Sec. School,
+                                Tosham,Bhiwani,Haryana </h6>
+                                <p class="text-white">2018</p>
                             </div>
                         </div>
                         <div className='empty'></div>
