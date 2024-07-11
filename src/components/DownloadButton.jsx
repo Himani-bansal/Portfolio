@@ -3,7 +3,7 @@ import React from 'react';
 const DownloadButton = () => {
   // Function to handle the download action
   const downloadResume = () => {
-    const fileUrl = 'https://drive.google.com/file/d/1RE1c7vci6scIUxNCZ-NQrWBAtkjeygJv/view?usp=drive_link';
+    const fileUrl = 'https://drive.google.com/file/d/1TP-Az-A7xQs2UDyP80KZ4LfyRug1a71l/view';
     const fileName = 'Himani-Bansal-Resume.pdf'; // Set the desired file name
 
     // Create an anchor element
